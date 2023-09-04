@@ -1,0 +1,14 @@
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DOCKER_MY_USER}
+      POSTGRES_PASSWORD: ${DOCKER_MY_PASSWD}
+      POSTGRES_DB: ${DOCKER_MY_DB}
+    ports:
+      - 5432:5432
+    env_file:
+      - ./.env.local
+
