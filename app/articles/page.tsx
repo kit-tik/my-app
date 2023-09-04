@@ -37,7 +37,7 @@ const Page = () => {
     },
   ];
   return (
-    <div className="container max-w-7xl m-auto">
+    <div data-theme="emerald" className="container max-w-7xl m-auto">
       <div className="grid grid-cols-12 gap-4">
         <div className="hidden md:block col-span-2">
           <div className="sticky top-4">

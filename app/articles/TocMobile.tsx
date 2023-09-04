@@ -13,7 +13,7 @@ const TocMobile = ({ headings }: Props) => {
     <div>
       <a
         href="#my-modal-2"
-        className="btn btn-circle fixed bottom-4 right-4 md:hidden"
+        className="btn btn-circle fixed bottom-4 left-2 md:hidden text-blue-400"
         onClick={() => setOpen(true)}
       >
         TOC
@@ -21,7 +21,7 @@ const TocMobile = ({ headings }: Props) => {
       <div className={"modal modal-bottom " + modalClass}>
         <div className="modal-box relative">
           <button
-            className="btn btn-ghost btn-sm absolute right-4 top-4"
+            className="btn btn-ghost btn-sm absolute left-2 top-4"
             onClick={() => setOpen(false)}
           >
             x

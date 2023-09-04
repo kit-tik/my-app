@@ -47,7 +47,7 @@ const Slider = () => {
         </p>
       </div>
       {/* IMAGE CONTAINER */}
-      <div className="w-full relative">
+      <div className="w-full relative -z-10">
         <Image
           src={data[currentSlide].image}
           alt="a slider image"
